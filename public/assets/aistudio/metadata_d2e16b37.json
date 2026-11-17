@@ -1,0 +1,6 @@
+{
+  "name": "Gustō · Pago y Menú en Mesa",
+  "description": "Experiencia minimalista de menú digital y pago en mesa para restaurantes en Chile con integración Fintoc, Apple Pay y notificaciones instantáneas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
