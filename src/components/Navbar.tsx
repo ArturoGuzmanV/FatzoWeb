@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ArrowUpRight, Menu, X } from 'lucide-react';
-import { getMenuAppUrl } from '../utils/menuConnection';
+import { getLoginAppUrl } from '../utils/loginConnection';
 
 const NAV_LINKS = [
   { href: '#experiencia-qr', label: 'Experiencia QR' },
@@ -11,7 +11,7 @@ const NAV_LINKS = [
 
 export const Navbar: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const menuAppUrl = getMenuAppUrl();
+  const loginAppUrl = getLoginAppUrl();
 
   return (
     <header className="sticky top-0 z-40 w-full bg-[#fcfdfb]/92 backdrop-blur-md border-b border-[#dce7ce]">
@@ -40,13 +40,13 @@ export const Navbar: React.FC = () => {
           ))}
         </nav>
 
-        {/* Zone 3: 1 primary action (direct redirect to the untouched digital menu app) */}
+        {/* Zone 3: 1 primary action (direct redirect to the login app) */}
         <div className="flex items-center gap-3 shrink-0">
           <a
-            href={menuAppUrl}
+            href={loginAppUrl}
             rel="noopener noreferrer"
             data-testid="navbar-login-link"
-            title="Ir directamente a la aplicación del menú digital Gustō"
+            title="Ir directamente al inicio de sesión de Gustō"
             className="inline-flex items-center justify-center gap-1.5 px-4 py-2.5 min-h-[40px] rounded-full bg-[#111111] hover:bg-[#262626] text-white text-sm font-semibold whitespace-nowrap shrink-0 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#111111] focus-visible:ring-offset-2"
           >
             <span>Iniciar Sesión</span>
