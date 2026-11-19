@@ -40,7 +40,11 @@ export const CapabilitiesBento: React.FC = () => {
             <div className="grid grid-cols-1 sm:grid-cols-12 gap-5 items-stretch">
               {/* Minimalist Table Tent Preview */}
               <div className="sm:col-span-5 rounded-2xl bg-[#f4f9ee] p-5 flex flex-col items-center justify-between text-center">
-                <span className="font-serif text-base font-bold text-[#111111]">Gustō</span>
+                <img
+                  src="/assets/fatzzo-logo.png"
+                  alt="fatzzo."
+                  className="h-6 w-auto"
+                />
 
                 <div className="my-4 p-3 rounded-xl bg-white" aria-hidden="true">
                   <QrCode className="w-20 h-20 text-[#111111] stroke-[1.5]" />
@@ -49,7 +53,7 @@ export const CapabilitiesBento: React.FC = () => {
                 <div>
                   <p className="text-xs font-bold text-[#111111]">Mesa 1 · Salón Principal</p>
                   <p className="mt-0.5 font-mono text-[11px] text-[#3a5a18]">
-                    app.gusto.cl/mesa-1
+                    app.fatzzo.cl/mesa-1
                   </p>
                 </div>
               </div>

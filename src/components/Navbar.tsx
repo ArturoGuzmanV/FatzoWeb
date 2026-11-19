@@ -16,12 +16,11 @@ export const Navbar: React.FC = () => {
   return (
     <header className="sticky top-0 z-40 w-full bg-[#fcfdfb]/92 backdrop-blur-md border-b border-[#dce7ce]">
       <div className="max-w-[1200px] mx-auto px-5 sm:px-8 h-16 flex items-center justify-between gap-8">
-        {/* Zone 1: Single text element wordmark */}
         <a
           href="#inicio"
-          className="font-serif text-2xl font-bold tracking-tight text-[#111111] whitespace-nowrap shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#111111] focus-visible:ring-offset-2 rounded"
+          className="inline-flex items-center whitespace-nowrap shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#111111] focus-visible:ring-offset-2 rounded"
         >
-          Gustō
+          <img src="/assets/fatzzo-logo.png" alt="fatzzo." className="h-7 w-auto" />
         </a>
 
         {/* Zone 2: 4 clean single-line navigation links */}
@@ -46,7 +45,7 @@ export const Navbar: React.FC = () => {
             href={loginAppUrl}
             rel="noopener noreferrer"
             data-testid="navbar-login-link"
-            title="Ir directamente al inicio de sesión de Gustō"
+            title="Ir directamente al inicio de sesión de fatzzo."
             className="inline-flex items-center justify-center gap-1.5 px-4 py-2.5 min-h-[40px] rounded-full bg-[#111111] hover:bg-[#262626] text-white text-sm font-semibold whitespace-nowrap shrink-0 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#111111] focus-visible:ring-offset-2"
           >
             <span>Iniciar Sesión</span>
