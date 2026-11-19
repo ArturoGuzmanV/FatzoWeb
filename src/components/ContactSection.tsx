@@ -91,7 +91,7 @@ export const ContactSection: React.FC = () => {
 
             {/* Direct Link for Existing Clients to Digital Menu App */}
             <div className="mt-7">
-              <p className="text-xs text-[#465242]">¿Ya operas tu restaurante con Gustō?</p>
+              <p className="text-xs text-[#465242]">¿Ya operas tu restaurante con fatzzo.?</p>
               <a
                 href={menuAppUrl}
                 rel="noopener noreferrer"

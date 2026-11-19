@@ -28,7 +28,7 @@ export const PushNotificationToast: React.FC<PushNotificationToastProps> = ({
       // Show real browser push notification if permitted
       if (typeof window !== 'undefined' && 'Notification' in window && Notification.permission === 'granted') {
         try {
-          new Notification('Gustō · Pago confirmado en Mesa ' + order.tableNumber, {
+          new Notification('fatzzo. · Pago confirmado en Mesa ' + order.tableNumber, {
             body: `Transacción aprobada por ${formatCLP(order.total)}. Tu pedido ya está en cocina.`,
             icon: '/favicon.ico',
           });
@@ -62,7 +62,7 @@ export const PushNotificationToast: React.FC<PushNotificationToastProps> = ({
         const permission = await Notification.requestPermission();
         setPushPermission(permission);
         if (permission === 'granted') {
-          new Notification('Gustō · Notificaciones activadas', {
+          new Notification('fatzzo. · Notificaciones activadas', {
             body: 'Recibirás avisos instantáneos de tu pedido y boleta electrónica.',
           });
         }
@@ -90,7 +90,7 @@ export const PushNotificationToast: React.FC<PushNotificationToastProps> = ({
           <div className="flex-1 min-w-0 text-left">
             <div className="flex items-center justify-between">
               <span className="text-[11px] font-semibold tracking-wider uppercase text-[#c5e19b]">
-                Notificación Push · Gustō
+                Notificación Push · fatzzo.
               </span>
               <span className="text-[10px] text-white/50">Ahora</span>
             </div>

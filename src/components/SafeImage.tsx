@@ -10,7 +10,7 @@ interface SafeImageProps {
 
 /**
  * Resilient image component adhering to the Zero-Broken-Image Policy.
- * Renders a styled Gustō pistachio surface fallback if the asset fails to load.
+ * Renders a styled pistachio surface fallback if the asset fails to load.
  */
 export const SafeImage: React.FC<SafeImageProps> = ({
   src,

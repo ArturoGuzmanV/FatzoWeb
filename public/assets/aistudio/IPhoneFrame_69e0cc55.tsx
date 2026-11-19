@@ -180,7 +180,7 @@ export const IPhoneFrame: React.FC<IPhoneFrameProps> = ({
               <div className="flex-1 flex items-center justify-center gap-1.5 py-1 px-3 rounded-full bg-[#eef7e3] border border-[#c5e19b] text-[11px] text-[#111111]">
                 <Lock className="w-3 h-3 text-[#5e8b23] stroke-[2.5]" />
                 <span className="font-bold tracking-tight truncate">
-                  gusto.cl/{tableName.toLowerCase().replace(' ', '-')}
+                  fatzzo.cl/{tableName.toLowerCase().replace(' ', '-')}
                 </span>
               </div>
               <div className="flex items-center gap-1 text-[#111111]">

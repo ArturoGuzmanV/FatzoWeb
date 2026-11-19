@@ -12,9 +12,9 @@ export const Footer: React.FC = () => {
           <div className="max-w-sm">
             <a
               href="#inicio"
-              className="font-serif text-2xl font-bold tracking-tight text-[#111111]"
+              className="inline-flex items-center"
             >
-              Gustō
+              <img src="/assets/fatzzo-logo.png" alt="fatzzo." className="h-8 w-auto" />
             </a>
             <p className="mt-2 text-sm text-[#465242] leading-relaxed">
               Menú digital QR y cobro instantáneo en mesa con Fintoc, Apple Pay y Webpay para
@@ -50,7 +50,7 @@ export const Footer: React.FC = () => {
         </div>
 
         <div className="pt-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 text-xs text-[#465242]">
-          <p>© 2026 Gustō SpA · Santiago, Chile</p>
+          <p>© 2026 fatzzo. SpA · Santiago, Chile</p>
           <p>Pagos procesados bajo estándar SSL 256-bit · Fintoc · Apple Pay · Webpay</p>
         </div>
       </div>

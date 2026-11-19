@@ -31,7 +31,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             </h1>
 
             <p className="mt-6 text-base sm:text-lg text-[#465242] leading-relaxed max-w-xl">
-              Gustō transforma cada código QR en una carta fotográfica y pasarela de pago con
+              fatzzo. transforma cada código QR en una carta fotográfica y pasarela de pago con
               Fintoc, Apple Pay y Webpay. Aumenta la rotación en horas punta, eleva el ticket
               promedio y libera a tu equipo de sala de cargar terminales POS.
             </p>
@@ -67,7 +67,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             </div>
           </div>
 
-          {/* Right Column: Dominant Visual Focal Carrier (Interactive Gustō Menu Mockup) */}
+          {/* Right Column: Dominant Visual Focal Carrier (Interactive fatzzo. Menu Mockup) */}
           <div className="lg:col-span-5 flex justify-center lg:justify-end">
             <MenuShowcaseMockup
               activeStage={mockupStage}
@@ -78,7 +78,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
 
         {/* Full-Width 4-Column Quantified KPI Strip */}
         <div
-          aria-label="Indicadores operativos en restaurantes con Gustō"
+          aria-label="Indicadores operativos en restaurantes con fatzzo."
           className="mt-16 lg:mt-20 pt-10 border-t border-[#dce7ce] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-0 lg:divide-x lg:divide-[#dce7ce]"
         >
           {HERO_METRICS.map((metric, idx) => (

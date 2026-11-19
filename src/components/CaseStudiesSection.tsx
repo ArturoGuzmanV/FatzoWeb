@@ -15,7 +15,7 @@ export const CaseStudiesSection: React.FC = () => {
           </h2>
           <p className="mt-4 text-base text-[#465242] leading-relaxed">
             Desde bistrós de barrio hasta terrazas de alto flujo, dueños y gerentes de operación
-            usan Gustō para cobrar más rápido sin perder cercanía en el servicio.
+            usan fatzzo. para cobrar más rápido sin perder cercanía en el servicio.
           </p>
         </div>
 
@@ -49,7 +49,7 @@ export const CaseStudiesSection: React.FC = () => {
                   </div>
 
                   <blockquote className="mt-5 text-sm text-[#2e382a] leading-relaxed">
-                    “{study.quote}”
+                    “{study.quote.replace('Gustō', 'fatzzo.')}”
                   </blockquote>
                 </div>
               </div>

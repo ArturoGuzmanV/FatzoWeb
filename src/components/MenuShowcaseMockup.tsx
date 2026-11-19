@@ -74,11 +74,11 @@ export const MenuShowcaseMockup: React.FC<MenuShowcaseMockupProps> = ({
   };
 
   return (
-    <div className="flex flex-col items-center w-full" data-testid="gusto-mockup-showcase">
+    <div className="flex flex-col items-center w-full" data-testid="fatzzo-mockup-showcase">
       {/* Interactive stage selector tabs */}
       <div
         role="tablist"
-        aria-label="Etapas reales del menú digital Gustō"
+        aria-label="Etapas reales del menú digital fatzzo."
         className="w-full max-w-[408px] grid grid-cols-4 gap-1 p-1 mb-5 rounded-xl bg-[#eef6e4] border border-[#dce7ce]"
       >
         {STAGE_TABS.map((tab) => {
@@ -102,7 +102,7 @@ export const MenuShowcaseMockup: React.FC<MenuShowcaseMockupProps> = ({
         })}
       </div>
 
-      {/* Faithful Gustō iPhone 16 Pro Visual Frame */}
+      {/* Faithful fatzzo. iPhone 16 Pro Visual Frame */}
       <div className="relative w-full max-w-[376px] rounded-[46px] p-[10px] bg-[#161716] border-[3px] border-[#8b8780] shadow-[0_28px_60px_-20px_rgba(17,17,17,0.28)]">
         {/* Inner Display Screen */}
         <div className="relative w-full h-[615px] rounded-[36px] bg-white text-[#111111] overflow-hidden flex flex-col">
@@ -116,15 +116,15 @@ export const MenuShowcaseMockup: React.FC<MenuShowcaseMockupProps> = ({
             </div>
           </div>
 
-          {/* Authentic Safari URL Bar referencing Gustō table link */}
+          {/* Authentic Safari URL Bar referencing the fatzzo. table link */}
           <div className="px-4 py-1.5 bg-white border-b border-[#c5e19b]/30 shrink-0">
             <div className="flex items-center justify-center gap-1.5 py-1 px-3 rounded-full bg-[#eef7e3] border border-[#c5e19b] text-[11px] text-[#111111]">
               <Lock className="w-2.5 h-2.5 text-[#3a5a18]" aria-hidden="true" />
-              <span className="font-semibold tracking-tight">app.gusto.cl/mesa-1</span>
+              <span className="font-semibold tracking-tight">app.fatzzo.cl/mesa-1</span>
             </div>
           </div>
 
-          {/* Gustō App Top Header (mirrors attached Header.tsx) */}
+          {/* Restaurant app top header */}
           <div className="px-4 py-2.5 bg-white border-b border-[#c5e19b]/45 flex items-center justify-between shrink-0">
             <span className="font-serif text-lg font-bold text-[#111111] tracking-tight">
               The Gourmet Hub
@@ -306,7 +306,7 @@ export const MenuShowcaseMockup: React.FC<MenuShowcaseMockupProps> = ({
                   ))}
                 </div>
 
-                {/* Split bill widget faithful to Gustō CartDrawer */}
+                {/* Split bill widget */}
                 <div className="p-3 rounded-2xl bg-[#eef7e3] border border-[#c5e19b] space-y-2">
                   <div className="flex items-center justify-between">
                     <span className="inline-flex items-center gap-1.5 text-xs font-bold text-[#111111]">
@@ -527,7 +527,7 @@ export const MenuShowcaseMockup: React.FC<MenuShowcaseMockupProps> = ({
                   </div>
                   <div className="min-w-0">
                     <p className="text-[10px] font-bold text-[#c5e19b]">
-                      Notificación Gustō · Ahora
+                      Notificación fatzzo. · Ahora
                     </p>
                     <p className="text-xs font-bold text-white">Pago aprobado en Mesa 1</p>
                     <p className="text-[11px] text-[#dcedc2]/85 tabular-nums">
@@ -601,7 +601,7 @@ export const MenuShowcaseMockup: React.FC<MenuShowcaseMockupProps> = ({
 
       {/* Caption under mockup */}
       <p className="mt-4 text-xs text-[#465242] text-center max-w-sm">
-        Vista interactiva basada en la aplicación real de menú digital Gustō. Recorre las 4 etapas
+        Vista interactiva basada en la aplicación real de menú digital fatzzo. Recorre las 4 etapas
         que experimenta cada mesa.
       </p>
     </div>
